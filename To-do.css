@@ -92,4 +92,51 @@ input[type="text"]{
   .task-buttons button:hover {
     background-color: rgba(0,0,0,0.1);
   }
-  
+  /* Existing CSS styles */
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .tit {
+    width: 50%;
+    height: auto;
+  }
+
+  #taskInput {
+    width: 70%;
+  }
+
+  #save {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .tit {
+    width: 70%;
+  }
+
+  #taskInput {
+    width: 60%;
+  }
+
+  #save {
+    width: 30%;
+  }
+}

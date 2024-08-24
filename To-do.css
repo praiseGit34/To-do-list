@@ -1,21 +1,17 @@
-.header{
-    /* background-color: aquamarine; */
- }
  .tit{
-    border-radius: 7%;
+    border-radius: 30%;
     border: none;
     /* float: right; */
     vertical-align: middle;
     margin-left:10px;
+    padding-top: 1%;
  }
  h1{
     margin: 0;
     display:inline-block;
     vertical-align: middle;
 }
-body{
-    background-color: cadetblue;
-}
+
 .task{
     margin-top: 5%;
     
@@ -26,19 +22,23 @@ input[type="text"]{
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom: none;
-
+    
 }
 .container {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 20px;
+    height: 100%;
+    padding: 20px;
+    background-color: chocolate;
   }
-  
+   
   .column {
-    flex: 1;
-    margin: 0 10px;
+    width: 30%;
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
   }
   
   h3 {
@@ -46,12 +46,50 @@ input[type="text"]{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: deeppink;
   }
   
   .tasklist {
-    background-color: #f0f8ff;
+    background-color: aliceblue;
     border-radius: 5px;
     padding: 10px;
-    min-height: 100px;
+    min-height: 200px;
     width: 100%;
   }
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+  }
+  
+  .task-text {
+    flex-grow: 1;
+  }
+  
+  .task-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .task-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-btn { color: green; }
+  .delete-btn { color:red ; }
+  .move-btn { color:chartreuse; }
+  
+  .task-buttons button:hover {
+    background-color: rgba(0,0,0,0.1);
+  }
+  

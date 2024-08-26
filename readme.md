@@ -3,7 +3,7 @@
 ## Overview
 @Praise To-Do-List is a sophisticated task management application designed to help you organize and track your daily activities efficiently. With its intuitive interface and powerful features, this app ensures you stay on top of your tasks, from spiritual practices to daily routines.
 
-![App Logo](./logo.png.png)
+![App Logo](./logo.png)
 
 ## Key Features
 
